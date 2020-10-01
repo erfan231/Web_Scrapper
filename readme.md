@@ -1,13 +1,13 @@
 # Web Scrapper
 
 ## A python script that gets the title and price of any book that has a 5 star rating 
-[Source - The website I scrapped in this script](http://books.toscrape.com/index.html)
+>[Source - The website I scrapped in this script](http://books.toscrape.com/index.html)
 
 ## Dependencies (Modules)
 
-- Python3
-- requests
-- bs4
+>- Python3
+>- requests
+>- bs4
 
 ## spin up
 - Install Python
