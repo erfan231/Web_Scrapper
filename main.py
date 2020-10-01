@@ -12,7 +12,7 @@ for n in range(1,51): #pages(1 to 50)
     books = soup.select(".product_pod") #get all the books
 
     for book in books: #check for 2 star rating books 
-        if len(book.select(".star-rating.Five")) != 0: #if the list is not empty, if list is empty means the book doesn't have 2 star
+        if len(book.select(".star-rating.Five")) != 0: #if the list is not empty, if list is empty means the book doesn't have 5 star
             book_title = book.select("a")[1]["title"] #check the <a> tag to find the title
             book_price = book.select(".price_color")
 
